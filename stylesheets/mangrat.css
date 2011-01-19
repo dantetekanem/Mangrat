@@ -1,0 +1,176 @@
+body {
+	background-color: #323232;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+a, img {
+	border: none;
+}
+#topo {
+	background-image: url(../images/top-bg.png);
+	background-position: top left;
+	background-repeat: repeat-x;
+	height: 57px;
+	width: 100%;
+	float: left;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+}
+#topo #logo {
+	float: left;
+	margin-top: 5px;
+	margin-left: 15px;
+}
+#topo #logo a img {
+	border: none;
+}
+#topo #text {
+	font-family: "Trebuchet MS";
+	color: #fff;
+	font-size: 12px;
+	float: left;
+	width: 500px;
+	margin-top: 13px;
+	margin-left: 10px;
+}
+#topo #more-info {
+	float: right;
+	margin-right: 30px;
+	margin-top: 12px;
+}
+#topo #more-info a {
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+#infos {
+	position: absolute;
+	width: 100%;
+	z-index: 2;
+	height: 250px;
+	margin-top: -250px;
+	background-color: #000;
+	opacity: .8;
+}
+#infos h2 {
+	font-size: 16px;
+	float: left;
+	clear: both;
+	margin-bottom: 10px;
+}
+#infos p {
+	float: left;
+	clear: both;
+	font-size: 13px;
+	margin-bottom: 5px;
+	margin-top: 0px;
+}
+#infos #left {
+	width: 60%;
+	float: left;
+	position: relative;
+	height: 200px;
+	margin-top: 50px;
+	font-family: "Trebuchet MS";
+	color: #fff;
+	margin-left: 25px;
+}
+#infos #left select {
+	float: left;
+	margin-right: 10px;
+	font-family: "Trebuchet MS";
+	font-size: 12px;
+	color: #333;
+	padding: 2px;
+}
+#infos #right {
+	float: right;
+	width: 30%;
+	margin-top: 50px;
+	font-family: "Trebuchet MS";
+	color: #fff;
+	height: 200px;
+	position: relative;
+}
+#manga {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: absolute;
+	z-index: 1;
+	text-align: center;
+}
+#manga img {
+	margin-top: 45px;
+}
+#manga-select {
+	position: absolute;
+	z-index: 3;
+	width: 400px;
+	height: 300px;
+	top: 50%;
+	left: 50%;
+	margin-left: -200px;
+	margin-top: -150px;
+	background-color: #000;
+	overflow: auto;
+	margin-bottom: 20px;
+}
+#manga-select b {
+	float: left;
+	clear: both;
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+	color: #fff;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+#manga-select a {
+	float: left;
+	clear: both;
+	padding-left: 20px;
+	margin-top: 5px;
+	font-family: "Trebuchet MS";
+	font-size: 13px;
+	color: #adadad;
+	width: 350px;
+	background-color: #000;
+	text-decoration: none;
+}
+#manga-select a:hover {
+	background-color: #adadad;
+	color: #000;
+}
+#bottom {
+	position: absolute;
+	height: 60px;
+	width: 100%;
+	font-family: "Trebuchet MS";
+	font-size: 12px;
+	color: #fff;
+	bottom: 0;
+	text-align: center;
+	z-index: 5;
+}
+#bottom a {
+	color: #fff;
+	text-decoration: underline;
+	font-weight: bold;
+}
+#loading {
+	z-index: 5;
+	position: absolute;
+	left: 25px;
+	top: 50px;
+	opacity: .7;
+	padding: 5px;
+	font-family: "Trebuchet MS";
+	color: #000;
+	font-size: 11px;
+	background-color: #fff;
+}
