@@ -1,0 +1,38 @@
+Mangrat - Web Manga Reader
+
+É um projeto open-source para leitura online de Mangás e HQ's, foi criado por Leonardo Pereira.
+
+Requisitos: PHP 5.x.x
+
+Instalação:
+	É bem simples, basta baixar todo o Mangrat para o seu PC e executar. Ele não necessita de nenhuma configuração ou banco de dados.
+	
+Listando mangás:
+	Tem um diretório chamado "mangas/", nele você deve criar um novo diretório para um novo mangá que deseja ler, por exemplo "One Piece", e nele por os capítulos do mangá. Olhe a estrutura abaixo para entender o funcionamento:
+	
+	mangas/
+		- One Piece/
+			- 001/
+				- 01.jpg
+				- 02.jpg
+				- 03.jpg
+			- 002/
+				- 01.jpg
+				- 02.jpg
+				- 03.jpg
+			- 003/
+				- 01.jpg
+				- 02.jpg
+				- 03.jpg
+		- Naruto/
+			- 001/
+				- 01.jpg
+				- 02.jpg
+				- 03.jpg
+				
+	Como deu pra ver, é a única estrutura necessária para utilizar o projeto.
+	
+	
+	Caso queirar entrar em contato comigo: dantetekanem[at]gmail[dot]com - www.leonardopereira.com
+	
+	Este projeto está sendo apenas suportado em Português(Brasileiro) por enquanto.
