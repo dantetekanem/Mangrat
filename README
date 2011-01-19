@@ -10,7 +10,7 @@ Features:
 	- Leitura de múltiplos mangás
 
 Instalação:
-	É bem simples, basta baixar todo o Mangrat para o seu PC e executar. Ele não necessita de nenhuma configuração ou banco de dados.
+	É bem simples, basta baixar todo o Mangrat para o seu servidor e executar. Ele não necessita de nenhuma configuração ou banco de dados.
 	
 Listando mangás:
 	Tem um diretório chamado "mangas/", nele você deve criar um novo diretório para um novo mangá que deseja ler, por exemplo "One Piece", e nele por os capítulos do mangá. Olhe a estrutura abaixo para entender o funcionamento:
