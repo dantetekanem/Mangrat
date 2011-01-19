@@ -4,6 +4,11 @@ Mangrat - Web Manga Reader
 
 Requisitos: PHP 5.x.x
 
+Features:
+	- Navegação por teclas.
+	- Preload de páginas enquanto lê a atual, fazendo ter a impressão de que se lê o mangá em tempo real, sem perder tempo lendo a página atual.
+	- Leitura de múltiplos mangás
+
 Instalação:
 	É bem simples, basta baixar todo o Mangrat para o seu PC e executar. Ele não necessita de nenhuma configuração ou banco de dados.
 	
